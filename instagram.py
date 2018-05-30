@@ -16,7 +16,7 @@ def main():
 
  # assign arugments
  args = ArgumentParser()
- args.add_argument('username', help='email or username')
+ args.add_argument('username', help='max_modell)
  args.add_argument('wordlist', help='password list')
  args.add_argument('threads', help='password per seconds. Any number <= 16')
  args = args.parse_args()
